@@ -1,0 +1,142 @@
+.eat-span-feature2:hover,.eat-span-feature-back:hover {
+	background: #C8E5AA;
+  /*background: #FDD0FF;*/
+	background-image: url('/assets/images/white_ball.png');
+	background-repeat: no-repeat;
+	background-position: 3px center;
+}
+.eat-span-feature a,.eat-span-feature-back a{
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+.eat-span-feature-back {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	-webkit-border-radius: 30px 0 0 30px;
+	-moz-border-radius: 30px 0 0 30px;
+	border-radius: 30px 0 0 30px;
+	border: 0px;
+	height: 40px;
+	width: 200px;
+	margin: 10px;
+	position: relative;
+	background-color: #deffbd;
+	background-image: url('/assets/images/white_ball.png');
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	-webkit-box-shadow: 1px 1px 2px #9a9a9a;
+	-moz-box-shadow: 1px 1px 2px #9a9a9a;
+	box-shadow: 1px 1px 2px #9a9a9a;
+}
+.eat-span-feature-back h4 {
+	margin: 10px 3px 0 27px;
+}
+
+div.eat-span-feature div{
+	color: black;
+}
+
+
+.eat-sample ul{
+	list-style: none;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.eat-sample p{
+	padding: 0.5em 0 .7em 0;;
+}
+.eat-sample img{
+	margin: 1.3em 2em;
+}
+@media screen and (max-width: 800px) {
+  .eat-sample img {
+    max-width: 90%;
+  }
+}
+.eat-span-feature3{
+	width: 150px;
+	height: 50px;
+	padding: 8px 0;
+	margin-left: -10px;
+}
+#logotag {
+	background-image: url(/assets/images/eat-2.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: contain;
+}
+@media screen and (max-width: 1200px) {
+	.eat-span-feature3{
+		margin-left: -60px;
+	}
+}
+.eat-span-title h3{
+	width: 125px;
+	margin: auto;
+}
+.eat-span-title.eat-eam.span2{
+  height: 80px;
+}
+.latex-form, .latex-key-form{
+	margin: 10px 10px -10px 10px;
+	padding: 5px;
+}
+.latex-form label, .latex-key-form label{
+	display: inline-block;
+	margin: 15px 15px 10px 5px;
+}
+.latex-form select{
+	width: 64px;
+}
+.key-btn{
+	margin-top: 5px;
+}
+@media (max-width: 767px) {
+	.latex-key-form input{
+		display: inline-block;
+		width: inherit;
+	}
+	.key-btn{
+		clear: both;
+	}
+}
+@media (max-width: 499px) {
+	.latex-form label, .latex-key-form label{
+		display: block;
+	}
+	.latex-key-form input{
+		display: inline-block;
+		width: 130px;
+	}
+}
+@media (max-width: 979px) and (min-width: 768px){
+	div.latex-key-form{
+		width: 414px;
+	}
+.reset-form{
+	color: red;
+	opacity: 1;
+}
+
+h3.select_add{
+	text-align: center;
+}
+select.select_add{
+	width: 190px;
+}
+ul.add_form{
+	list-style: none;
+	margin: 10px 5px -10px 5px;
+}
+.add_form li{
+	margin-bottom: 10px;
+}
+.add_form label{
+	float: left;
+	width: 80px;
+
+#mailing-text{
+	margin-left: 10px;
+}
